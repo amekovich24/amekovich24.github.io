@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RenewaGreen Technology</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT OUR COMPANY</a></li>
+                    <li><a href="gogreen.html">GO GREEN</a></li>
+                    <li><a href="greentech.html">GREEN TECH</a></li>
+                    <li><a href="pricing.html">PRICING</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="sources.html">SOURCES</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <H1>Contact</H1>
+    </section>
+
+    <!-- End of Main Components --> 
+
+    <!-- Contact Content -->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Our First RenewaCenter Just Opened in New York</h1>
+                <p>RenewaGreen now has its first physical location, where homeowners can view samples of the RenewaGreen Technologies in person.</p>
+                <p>RenewaGreen is still offering its virtual appointments and consultations.</p>
+                <p>See Map Below for Location Details</p>
+            </div>
+            <div class="about-col">
+                <img src="images/companybuilding.jpg">
+            </div>
+        </div>
+    </section>
+
+    <section class="location-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387194.0622236789!2d-74.30932477148002!3d40.69701929469058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1704056137861!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <hr>
+
+    <section class="contact-content">
+        <div class="row">
+            <div class="contact-left">
+                <h1>Book Your Free Consultation Today</h1><br><br>
+                <h1>RenewaGreen's Contact Services</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <span>
+                        <h5>123 Green Street New York, NY 10001 </h5>
+                        <p>RenewaCenter Address</p>
+                    </span>
+                </div>
+
+                <div>
+                    <span>
+                        <h5>+1 212-123-4567</h5>
+                        <p>RenewaCenter Phone Number</p>
+                    </span>
+                </div>
+
+                <div>
+                    <span>
+                        <h5>RenewaCenterNY@RenewaGreen.org</h5>
+                        <p>Email Us With Any Questions</p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="contact-col">
+                <img src="images/homepagebackground.png">
+            </div>
+        </div>
+
+    <!-- End of Contact Content -->
+  
+    <!-- Footer --> 
+    <hr>
+    <section class="footer">
+        <h4>About RenewaGreen's Website</h4>
+        <p>This website is exclusively created for and utilized for Webmaster, a competition within the Student Technology Association (TSA).<br>Please note that this website is designed solely for the purposes of the competition and does not represent an actual company or business entity.</p>
+    </section>
+    <!-- End of Footer --> 
+
+    <!-- JavaScript for Toggle Menu --> 
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    <!-- End of JavaScript for Toggle Menu --> 
+</body>
+</html>

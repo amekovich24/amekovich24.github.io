@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RenewaGreen</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT OUR COMPANY</a></li>
+                    <li><a href="gogreen.html">GO GREEN</a></li>
+                    <li><a href="greentech.html">GREEN TECH</a></li>
+                    <li><a href="pricing.html">PRICING</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="sources.html">SOURCES</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Empowering Homeowners:<br>Green Energy Solutions for Sustainable Living</h1>
+            <p>Renewable energy technologies that help homeowners maintain green and clean energy practices.</p>
+            <a href="gogreen.html" class="hero-btn">Learn Tips To Go Green</a>
+        </div>
+    </section>
+
+    <!-- End of Main Components --> 
+
+    <!-- Welcome Table --> 
+    <section class="ourcompany">
+        <h1>Welcome to RenewaGreen</h1>
+        <br>
+        <p>We are an exclusive green and clean energy company for homeowners, dedicated to providing the best energy resources. <br>RenewaGreen is on a global mission to transition homeowners to renewable energy practices.</p><br>
+            <div class="main-image"
+                <img src="images/companybuilding.jpg"><br><br>
+            </div>
+    <!-- End of Welcome Table --> 
+
+        <h1>Benefits of Going Green</h1>
+
+    <!-- Benefits Table -->    
+        <div class="row">
+            <div class="company-col">
+                <h3>Reduce Your Carbon Footprint</h3>
+                <p>Homeowners with renewable energies emit very little greenhouse gases and pollutants into the atmosphere. </p>
+            </div>
+            <div class="company-col">
+                <h3>Cut Costs Of Utilities</h3>
+                <p>Homeowners that switch renewable energy resources save an average of $500 per year.<br><br>As well, renewable energy systems can pay for themselves over time.</p>
+            </div>
+            <div class="company-col">
+                <h3>Help The Enviroment & The Planet</h3>
+                <p>Switching to green energy significantly reduces the carbon footprint of your household. Switching to green engery reduces reliance on fossil fuels for energy and decreases the release of harmful pollutants into the atmosphere.</p>
+            </div>
+        </div>
+    </section>
+    <!-- End of Benefits Table --> 
+
+    <!-- Name of Tech Images --> 
+    <section class="tech">
+        <h1>Technologies We Offer at RenewaGreen</h1>
+        <p>Place your cursor over an image to view the name of the RenewaGreen Technology used in the image.</p>
+
+        <div class="row">
+            <div class="tech-col">
+                <img src="images/imgWindTurbineHome.jpg">
+                <div class="layer">
+                    <h3>RenewaGreen Wind Turbines</h3>
+                </div>
+            </div>
+
+            <div class="tech-col">
+                <img src="images/imgSolarPanelHome.jpg">
+                <div class="layer">
+                    <h3>RenewaGreen Solar Panels</h3>
+                </div>
+            </div>
+
+            <div class="tech-col">
+                <img src="images/imgHydroelectricSystem.jpeg">
+                <div class="layer">
+                    <h3>RenewaGreen Hydroelectric System</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Name of Tech Images --> 
+
+    <!-- Learn More --> 
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>RenewaGreen's Technologies Are Exclusive to Homeowners</h1>
+                <p>At RenewaGreen, we strive to create the best green and clean engery technology that </p>
+                <a href="greentech.html" class="hero-btn green-btn">Learn More</a>
+            </div>
+            <div class="about-col">
+                <img src="images/imgSolarPanel2.jpg">
+            </div>
+        </div>
+    </section>
+    <!-- End of Learn More -->   
+
+    <!-- Call to Action --> 
+    <section class="callaction">
+        <h1>Register with RenewaGreen Today</h1>
+        <a href="contact.html" class="hero-btn">Contact Us</a>
+    </section>
+    <!-- End of Call to Action --> 
+
+    <!-- Footer --> 
+    <hr>
+    <section class="footer">
+        <h4>About RenewaGreen's Website</h4>
+        <p>This website is exclusively created for and utilized for Webmaster, a competition within the Student Technology Association (TSA).<br>Please note that this website is designed solely for the purposes of the competition and does not represent an actual company or business entity.</p>
+    </section>
+    <!-- End of Footer --> 
+
+    <!-- JavaScript for Toggle Menu --> 
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    <!-- End of JavaScript for Toggle Menu --> 
+</body>
+</html>
